@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginStart="@dimen/space_extra"
+    android:layout_marginLeft="@dimen/space_extra"
+    android:layout_marginEnd="@dimen/space_extra"
+    android:layout_marginRight="@dimen/space_extra"
+    android:gravity="center"
+    android:fitsSystemWindows="true"
+    tools:context=".ui.activity.LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="225dp"
+        android:layout_height="266dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_title"
+        android:textColor="@color/red_inactive"
+        android:textStyle="bold"
+        android:fitsSystemWindows="true"
+        android:layout_marginBottom="@dimen/space_large"
+        android:text="LOGIN"/>
+
+    <EditText
+        android:id="@+id/login_Nim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_normal"
+        android:inputType="textFilter|number"
+        android:digits="0123456789."
+        android:layout_marginTop="@dimen/space_normal"
+        android:layout_marginBottom="@dimen/space_normal"
+        android:maxLines="1"
+        android:fitsSystemWindows="true"
+        android:hint="NIM"/>
+
+    <EditText
+        android:id="@+id/loginPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_normal"
+        android:inputType="text"
+        android:layout_marginTop="@dimen/space_normal"
+        android:layout_marginBottom="@dimen/space_normal"
+        android:maxLines="1"
+        android:fitsSystemWindows="true"
+        android:hint="Password"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_normal"
+        android:layout_marginBottom="@dimen/space_normal"
+        android:maxHeight="40dp"
+        android:background="@drawable/button_background"
+        android:text="Login"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:fitsSystemWindows="true"
+        android:textAllCaps="false"/>
+
+
+</LinearLayout>

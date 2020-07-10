@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_dimens">16dp</dimen>
+    <dimen name="space_appbar">58dp</dimen>
+    <dimen name="space_extra">24dp</dimen>
+    <dimen name="space_large">16dp</dimen>
+    <dimen name="space_normal">8dp</dimen>
+    <dimen name="space_medium">4dp</dimen>
+    <dimen name="space_small">2dp</dimen>
+
+    <!--    text   -->
+    <dimen name="text_title">18sp</dimen>
+    <dimen name="text_normal">14sp</dimen>
+    <dimen name="text_detail">12sp</dimen>
+    <dimen name="text_small">10sp</dimen>
+</resources>
